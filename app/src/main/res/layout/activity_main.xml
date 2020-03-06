@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrågesportActivity">
+
+
+    <TextView
+        android:id="@+id/Fraga"
+        android:layout_width="wrap_content"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="22dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"/>
+
+    <Button
+        android:id="@+id/Valett"
+        android:layout_width="175dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="273dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="Val 1"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:shadowColor="@color/Black"
+        android:background="@drawable/ovalknapp"
+        />
+
+    <Button
+        android:id="@+id/Valtvå"
+        android:layout_width="175dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="273dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="Val 2"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:shadowColor="@color/Black"
+        android:background="@drawable/ovalknapp"
+        />
+
+    <Button
+        android:id="@+id/Valtre"
+        android:layout_width="175dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="128dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="Val 3"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:shadowColor="@color/Black"
+        android:background="@drawable/ovalknapp"
+        />
+
+    <Button
+        android:id="@+id/Valfyra"
+        android:layout_width="175dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="128dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="Val 4"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:shadowColor="@color/Black"
+        android:background="@drawable/ovalknapp"
+        />
+
+    <TextView
+        android:id="@+id/tidtagning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:text="00:00"
+        android:textSize="25dp"
+        android:textColor="@color/Black"/>
+
+
+</RelativeLayout>

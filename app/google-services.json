@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "154307706121",
+    "firebase_url": "https://developmenttaskfragesportsapp.firebaseio.com",
+    "project_id": "developmenttaskfragesportsapp",
+    "storage_bucket": "developmenttaskfragesportsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154307706121:android:3e4178509e998b138027d8",
+        "android_client_info": {
+          "package_name": "com.example.developmenttaskeyge0001frgesport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154307706121-bu3js91gohvudc6i0dnlu80no38eulug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.developmenttaskeyge0001frgesport",
+            "certificate_hash": "2c0c549ea215ba5da3e68b4f3b20933b5b653eda"
+          }
+        },
+        {
+          "client_id": "154307706121-jdbonncv8rk41p44kt5evlimd6uc3vib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdIr5F9o6-x79h4rJ5TbBVp0AETpGvP-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154307706121-jdbonncv8rk41p44kt5evlimd6uc3vib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

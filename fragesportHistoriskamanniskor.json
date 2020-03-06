@@ -1,0 +1,97 @@
+{
+ "Fragor" : {
+
+
+  "1" : {
+
+    "fraga" : "Vilken händelse inleder andra världskriget 1 september 1939?",
+   "val1" : "Tyskland invaderar Danmark",
+   "val2" : "Tyskland invaderar Polen",
+   "val3" : "Sovjetunionen invaderar Estland",
+   "val4" : "Sovjetunionen invaderar Tyskland",
+   "svar" : "Tyskland invaderar Polen"
+  },
+
+  "2" : {
+ 
+   "fraga" : "Hur länge varade andra världskriget?",
+   "val1" : "Fem år",
+   "val2" : "Fyra år",
+   "val3" : "Sex år",
+   "val4" : "Tre år",
+   "svar" : "Sex år"
+  },
+
+  "3" : {
+    "fraga" : "Vad hette operationen där Tyskland anföll Sovjetunionen 22 juni 1941?",
+   "val1" : "Barosso",
+   "val2" : "Barbarossa",
+   "val3" : "Porco Rosso",
+   "val4" : "Eagle",
+   "svar" : "Barbarossa"
+  },
+
+  "4" : {
+   "fraga" : "Vad kallades de två stora blocken som stod mot varandra i andra världskriget?",
+   "val1" : "Axelmakterna och stormakterna",
+   "val2" : "De allierade och axelmakterna",
+   "val3" : "De allierade och stormakterna",
+   "val4" : "Imperium och republika",
+   "svar" : "De allierade och axelmakterna"
+    },
+
+    "5" : {
+   "fraga" : "Vilka två länder utgjorde axelmakterna?",
+   "val1" : "Tyskland och Italien",
+   "val2" : "Tyskland och Spanien",
+   "val3" : "Tyskland och Sovjetunionen",
+   "val4" : "Tyskland och Japan",
+   "svar" : "Tyskland och Italien"
+    },
+
+    "6" : {
+   "fraga" : "Våren 1940 ockuperade Tyskland två nordiska länder. Vilka länder var det?",
+   "val1" : "Norge och Finland",
+   "val2" : "Danmark och Norge",
+   "val3" : "Norge och Sverige",
+   "val4" : "Danmark och Sverige",
+   "svar" : "Danmark och Norge"
+    },
+
+    "7" : {
+   "fraga" : "Många har hört talas om dagen-D, men vad var dagen-D?",
+   "val1" : "Dagen då Dresden bombades",
+   "val2" : "Dagen då Danmark invaderades",
+   "val3" : "Allierade landsteg i Normandie",
+   "val4" : "Dagen då Tyskland kapitulerade",
+   "svar" : "Allierade landsteg i Normandie"
+    },
+
+     "8" : {
+   "fraga" : "Mellan vilka år varade andra världskriget?",
+   "val1" : "1930 - 1936",
+   "val2" : "1939 – 1945",
+   "val3" : "1920 - 1940",
+   "val4" : "1935 - 1940",
+   "svar" : "1939 – 1945"
+    },
+
+     "9" : {
+   "fraga" : "Vilket land var inte med I andra världskriget? ",
+   "val1" : "Sverige",
+   "val2" : "Tyskland",
+   "val3" : "Storbritannien",
+   "val4" : "Japan",
+   "svar" : "Sverige"
+    },
+
+     "10" : {
+   "fraga" : "Vilket land attackerade den amerikanska militärbas Pearl Harbor?",
+   "val1" : "Tyskland",
+   "val2" : "Storbritannien",
+   "val3" : "Japan",
+   "val4" : "Italien",
+   "svar" : "Japan"
+    }
+ }
+}

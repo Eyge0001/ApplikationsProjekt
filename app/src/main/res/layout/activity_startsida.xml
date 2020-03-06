@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartsidaActivity">
+
+    <TextView
+        android:id="@+id/startsidtextett"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Välkommen till WW2frågor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        app:layout_constraintBottom_toTopOf="@+id/startsidtexttvå"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/startaspelknapp"
+        android:layout_width="212dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="145dp"
+        android:text="Starta WW2 frågesporten"
+        android:textColor="@color/Black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        android:shadowColor="@color/Black"
+        android:background="@drawable/ovalknapp"
+        />
+
+    <TextView
+        android:id="@+id/startsidtexttre"
+        android:layout_width="281dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="28dp"
+        android:text="Du ska nu få svara på 10 flervalsfrågor om andra världskriget."
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        app:layout_constraintBottom_toTopOf="@+id/startsidtextfyra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/startsidtexttvå"
+        android:layout_width="284dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="15dp"
+        android:text="Låt oss testa med lite slumpmässiga frågor, hur mycket du kan om andra världskriget?"
+        android:textSize="15dp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Spelregler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/startsidtextfyra"
+        android:layout_width="280dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="10dp"
+        android:text="1. Endast ett alternativ stämmer."
+        android:textSize="15dp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/startsidtextfem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/startsidtextfem"
+        android:layout_width="280dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="10dp"
+        android:text="2. Du har totalt 30 sek / fråga. "
+        android:textSize="15dp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lyckatill"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Spelregler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Spelregler"
+        android:textSize="20dp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/startsidtexttre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lyckatill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Lycka till!"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/startaspelknapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
